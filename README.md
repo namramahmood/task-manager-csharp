@@ -1,11 +1,11 @@
 # Task Manager App
 
-A simple console app to help you keep track of tasks. You can add, edit, list, and mark tasks as done. It saves your tasks in a JSON file so you don’t lose them after closing the app.
+This is a simple C# console app to help you keep track of your daily tasks. You can add new tasks, mark them as done, edit them, and list completed or pending tasks. It saves your tasks in a JSON file so they’re still there when you come back.
 
 ## Features
 - Add tasks with title, description, due date, and priority (High/Medium/Low)
-- Edit tasks
-- List all, completed, or pending tasks
+- Edit existing tasks (update title, description, date, or priority)
+- List all tasks, or filter by completed/pending
 - Mark tasks as complete
 - Save and load tasks from a JSON file
 
@@ -17,7 +17,6 @@ A simple console app to help you keep track of tasks. You can add, edit, list, a
 5. Use the menu to manage your tasks. Tasks save to `taskmanager.json`.
 
 ## Notes
-- I built this following what I learned at Le Wagon bootcamp.
-- The app uses a simple JSON file for saving — no database needed.
-- Make sure to enter dates like `dd/MM/yyyy`.
-- Editing tasks is done through option 6 in the menu.
+- The app doesn’t use a database — just a JSON file for simplicity.
+- Make sure to enter dates using `dd/MM/yyyy` format.
+- You can edit a task by choosing option 6 from the menu.
